@@ -5,10 +5,4 @@ export const ContainerContact = styled.main`
   min-height: 100vh;
   position: absolute;
   right: 0;
-
-  .form-test {
-    min-height: 635px;
-    margin-top: 35px;
-    background-color: grey;
-  }
 `;

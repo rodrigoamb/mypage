@@ -2,6 +2,7 @@ import { ContainerContact } from './ContactStyles';
 
 import Footer from '../../components/Footer/Footer';
 import SectionTitles from '../../components/SectionTitles/SectionTitles';
+import FormMsg from '../../components/FormMsg/FormMsg';
 
 const Contact = () => {
   return (
@@ -13,7 +14,7 @@ const Contact = () => {
             'Entre em contato diretamente comigo preenchendo os campos abaixo:'
           }
         />
-        <div className='form-test'>FORMULARIO</div>
+        <FormMsg />
         <Footer />
       </ContainerContact>
     </>
