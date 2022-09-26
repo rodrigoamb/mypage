@@ -14,12 +14,12 @@ export const ContainerButton = styled.div`
     font-size: 1rem;
     text-decoration: none;
     transition: all 0.2s;
-  }
 
-  .btn-link:hover {
-    background-color: #3b00b4;
-    box-shadow: 0px 0px 15px #ea356f;
-    scale: 1.1;
+    &:hover {
+      background-color: #3b00b4;
+      box-shadow: 0px 0px 15px #ea356f;
+      scale: 1.1;
+    }
   }
 
   .btn-name {

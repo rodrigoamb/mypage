@@ -19,6 +19,14 @@ export const ContainerTitles = styled.div`
     flex-wrap: nowrap;
     align-items: center;
     justify-content: start;
+
+    h2 {
+      margin-bottom: 5px;
+      font-size: 3rem;
+      display: inline-block;
+      margin-left: -160px;
+      color: #ea356f;
+    }
   }
 
   .detail-title {
@@ -29,14 +37,6 @@ export const ContainerTitles = styled.div`
     border-left: 8px solid #7f00be;
     border-bottom: 8px solid #7f00be;
     margin-bottom: 5px;
-  }
-
-  .container-title h2 {
-    margin-bottom: 5px;
-    font-size: 3rem;
-    display: inline-block;
-    margin-left: -160px;
-    color: #ea356f;
   }
 
   p {
