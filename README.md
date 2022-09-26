@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Projeto página Portfólio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido em ReactJS para minha página pessoal de portfólio.
+
+## Getting Started with Create React App
+
+This project was bootstrapped with Create React App.
 
 ## Available Scripts
 
