@@ -34,8 +34,8 @@ export const ContainerNavBar = styled.nav`
     transition: all 0.2s;
 
     &:hover {
-      text-shadow: 0px 0px 15px rgba(204, 70, 252, 1);
-      filter: drop-shadow(0px 0px 15px rgba(204, 70, 252, 1));
+      text-shadow: 0px 0px 15px #ea356f;
+      filter: drop-shadow(0px 0px 15px #ea356f);
       color: #ea356f;
       scale: 1.05;
       cursor: pointer;
@@ -43,8 +43,8 @@ export const ContainerNavBar = styled.nav`
   }
 
   .active {
-    text-shadow: 0px 0px 15px rgba(204, 70, 252, 1);
-    filter: drop-shadow(0px 0px 15px rgba(204, 70, 252, 1));
+    text-shadow: 0px 0px 15px #ea356f;
+    filter: drop-shadow(0px 0px 15px #ea356f);
     color: #00d9ff;
     scale: 1.05;
   }

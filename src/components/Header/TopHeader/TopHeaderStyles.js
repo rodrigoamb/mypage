@@ -19,7 +19,7 @@ export const ContainerTopHeader = styled.div`
       scale: 1.05;
     }
 
-    .title-name:active {
+    &:active {
       position: relative;
       top: 2px;
     }
@@ -88,8 +88,9 @@ export const ContainerTopHeader = styled.div`
     transition: all 0.5s;
 
     &:hover {
+      color: #18073f;
       background-color: #00d9ff;
-      box-shadow: 0px 0px 15px rgba(204, 70, 252, 1);
+      box-shadow: 0px 0px 15px #ea356f;
     }
   }
 `;

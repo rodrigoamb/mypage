@@ -6,7 +6,6 @@ import {
   FaGitAlt,
   FaGithub,
   FaBootstrap,
-  FaSass,
   FaReact,
   FaNodeJs,
   FaNpm,
@@ -66,10 +65,10 @@ export const techs = [
   },
   {
     id: 8,
-    tech: <FaSass className='icon' />,
-    nameTech: 'Sass',
-    color: '#C36192',
-    delay: 8,
+    tech: <SiMongodb className='icon' />,
+    nameTech: 'MongoDB',
+    color: '#589636',
+    delay: 4,
   },
   {
     id: 9,
@@ -98,12 +97,5 @@ export const techs = [
     nameTech: 'NodeJS',
     color: '#7DC326',
     delay: 5,
-  },
-  {
-    id: 13,
-    tech: <SiMongodb className='icon' />,
-    nameTech: 'MongoDB',
-    color: '#589636',
-    delay: 4,
   },
 ];

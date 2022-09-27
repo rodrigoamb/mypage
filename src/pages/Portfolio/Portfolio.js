@@ -1,7 +1,17 @@
+import Footer from '../../components/Footer/Footer';
+import SectionTitles from '../../components/SectionTitles/SectionTitles';
 import { ContainerPortfolio } from './PortfolioStyles';
 
 const Portfolio = () => {
-  return <ContainerPortfolio>ESSA É A PÁGINA DE PORTFOLIO</ContainerPortfolio>;
+  return (
+    <ContainerPortfolio>
+      <SectionTitles
+        title={'Meus projetos desenvolvidos...'}
+        description={'Confira abaixo algum dos projetos elaborados por mim:'}
+      />
+      <Footer />
+    </ContainerPortfolio>
+  );
 };
 
 export default Portfolio;
