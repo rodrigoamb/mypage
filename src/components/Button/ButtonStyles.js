@@ -8,21 +8,28 @@ export const ContainerButton = styled.div`
   margin-top: 30px;
 
   .btn-link {
-    background-color: #ea356f;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-size: 1rem;
     text-decoration: none;
-    transition: all 0.2s;
-  }
 
-  .btn-link:hover {
-    background-color: #3b00b4;
-    box-shadow: 0px 0px 15px #ea356f;
-    scale: 1.1;
+    &:hover {
+      box-shadow: 0px 0px 15px #ea356f;
+      scale: 1.1;
+    }
   }
 
   .btn-name {
     color: white;
+    background-color: #ea356f;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s;
+    padding: 10px 20px;
+    text-decoration: none;
+
+    &:hover {
+      color: #18073f;
+      background-color: #00d9ff;
+      box-shadow: 0px 0px 15px #ea356f;
+      scale: 1.1;
+    }
   }
 `;

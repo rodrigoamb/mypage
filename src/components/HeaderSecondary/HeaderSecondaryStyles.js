@@ -127,10 +127,12 @@ export const ContainerHeaderSecondary = styled.div`
     border-radius: 8px;
     background-color: #ea356f;
     transition: all 0.2s;
-  }
 
-  .btn-card:hover {
-    background-color: #3b00b4;
-    box-shadow: 0px 0px 15px #ea356f;
+    &:hover {
+      color: #18073f;
+      background-color: #00d9ff;
+      box-shadow: 0px 0px 15px #ea356f;
+      scale: 1.05;
+    }
   }
 `;

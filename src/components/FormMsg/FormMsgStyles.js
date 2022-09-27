@@ -78,17 +78,17 @@ export const ContainerFormMsg = styled.div`
     background-color: #ea356f;
     color: white;
     border: none;
-    border-radius: 50px;
+    border-radius: 8px;
     padding: 10px 20px;
     transition: 0.2s;
-  }
 
-  .btn-submit:hover {
-    cursor: pointer;
-    background-color: #8be9fd;
-    color: #181c36;
-    box-shadow: 0 0 15px #ea356f;
-    scale: 1.1;
+    &:hover {
+      cursor: pointer;
+      background-color: #8be9fd;
+      color: #181c36;
+      box-shadow: 0 0 15px #ea356f;
+      scale: 1.1;
+    }
   }
 
   .btn-submit:active {

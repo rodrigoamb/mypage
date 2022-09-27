@@ -14,15 +14,15 @@ export const ContainerTopHeader = styled.div`
     font-size: 1.4rem;
     color: white;
     margin-bottom: 20px;
-  }
 
-  .title-name:hover {
-    scale: 1.05;
-  }
+    &:hover {
+      scale: 1.05;
+    }
 
-  .title-name:active {
-    position: relative;
-    top: 2px;
+    .title-name:active {
+      position: relative;
+      top: 2px;
+    }
   }
 
   .my-name {
@@ -86,10 +86,10 @@ export const ContainerTopHeader = styled.div`
     border-radius: 8px;
     margin-right: 15px;
     transition: all 0.5s;
-  }
 
-  .icon:hover {
-    background-color: #00d9ff;
-    box-shadow: 0px 0px 15px rgba(204, 70, 252, 1);
+    &:hover {
+      background-color: #00d9ff;
+      box-shadow: 0px 0px 15px rgba(204, 70, 252, 1);
+    }
   }
 `;

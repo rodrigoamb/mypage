@@ -31,9 +31,9 @@ export const ContainerErrorPage = styled.div`
     padding-bottom: 5px;
     border-bottom: 2px dotted #ea356f;
     transition: all 0.2s;
-  }
 
-  .btn-return-home:hover {
-    scale: 1.1;
+    &:hover {
+      scale: 1.1;
+    }
   }
 `;
