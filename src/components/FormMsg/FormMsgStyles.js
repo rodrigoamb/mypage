@@ -61,6 +61,7 @@ export const ContainerFormMsg = styled.div`
   }
 
   textarea {
+    resize: none;
     width: 100%;
     max-width: 874.8px;
     height: 250px;
@@ -70,6 +71,7 @@ export const ContainerFormMsg = styled.div`
     color: white;
     letter-spacing: 1px;
     border-radius: 20px;
+    font-family: sans-serif;
   }
 
   .btn-submit {
@@ -99,5 +101,21 @@ export const ContainerFormMsg = styled.div`
     padding-top: 30px;
     font-size: 1.3rem;
     color: #ea356f;
+  }
+
+  .spinner {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%, #00d9ff);
+
+    animation: spinner-zp9dbg 1s infinite linear;
+  }
+
+  @keyframes spinner-zp9dbg {
+    to {
+      transform: rotate(1turn);
+    }
   }
 `;
