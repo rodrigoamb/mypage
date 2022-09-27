@@ -14,13 +14,13 @@ export const ContainerNavBar = styled.nav`
 
   ul {
     list-style: none;
+  }
 
-    li {
-      margin-bottom: 15px;
-      padding-left: 60px;
-      display: flex;
-      flex-direction: row;
-    }
+  ul li {
+    margin-bottom: 15px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
   }
 
   .btn-nav {
@@ -32,14 +32,14 @@ export const ContainerNavBar = styled.nav`
     justify-content: start;
     color: white;
     transition: all 0.2s;
+  }
 
-    &:hover {
-      text-shadow: 0px 0px 15px rgba(204, 70, 252, 1);
-      filter: drop-shadow(0px 0px 15px rgba(204, 70, 252, 1));
-      color: #ea356f;
-      scale: 1.05;
-      cursor: pointer;
-    }
+  .btn-nav:hover {
+    text-shadow: 0px 0px 15px rgba(204, 70, 252, 1);
+    filter: drop-shadow(0px 0px 15px rgba(204, 70, 252, 1));
+    color: #ea356f;
+    scale: 1.05;
+    cursor: pointer;
   }
 
   .active {

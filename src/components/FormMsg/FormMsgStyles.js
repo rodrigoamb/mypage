@@ -23,13 +23,12 @@ export const ContainerFormMsg = styled.div`
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 10px;
-    span {
-      color: white;
-      width: 100%;
-      margin-bottom: 5px;
-    }
   }
-
+  span {
+    color: white;
+    width: 100%;
+    margin-bottom: 5px;
+  }
   .input-form {
     width: 100%;
     height: 40px;
@@ -82,19 +81,19 @@ export const ContainerFormMsg = styled.div`
     border-radius: 50px;
     padding: 10px 20px;
     transition: 0.2s;
+  }
 
-    &:hover {
-      cursor: pointer;
-      background-color: #8be9fd;
-      color: #181c36;
-      box-shadow: 0 0 15px #ea356f;
-      scale: 1.1;
+  .btn-submit:hover {
+    cursor: pointer;
+    background-color: #8be9fd;
+    color: #181c36;
+    box-shadow: 0 0 15px #ea356f;
+    scale: 1.1;
+  }
 
-      &:active {
-        position: relative;
-        top: 1px;
-      }
-    }
+  .btn-submit:active {
+    position: relative;
+    top: 1px;
   }
 
   .message {

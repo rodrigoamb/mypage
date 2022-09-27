@@ -87,18 +87,18 @@ export const ContainerHeaderSecondary = styled.div`
     width: 40%;
     margin-right: 35px;
     color: #eee;
+  }
 
-    h1 {
-      font-size: 2.8rem;
-    }
+  .info-card h1 {
+    font-size: 2.8rem;
+  }
 
-    h2 {
-      margin-bottom: 15px;
-    }
+  .info-card h2 {
+    margin-bottom: 15px;
+  }
 
-    p {
-      margin-bottom: 35px;
-    }
+  .info-card p {
+    margin-bottom: 35px;
   }
 
   .info-card p span {
@@ -127,10 +127,10 @@ export const ContainerHeaderSecondary = styled.div`
     border-radius: 8px;
     background-color: #ea356f;
     transition: all 0.2s;
+  }
 
-    &:hover {
-      background-color: #3b00b4;
-      box-shadow: 0px 0px 15px #ea356f;
-    }
+  .btn-card:hover {
+    background-color: #3b00b4;
+    box-shadow: 0px 0px 15px #ea356f;
   }
 `;

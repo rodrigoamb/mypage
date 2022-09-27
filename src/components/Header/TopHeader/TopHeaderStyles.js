@@ -14,15 +14,15 @@ export const ContainerTopHeader = styled.div`
     font-size: 1.4rem;
     color: white;
     margin-bottom: 20px;
+  }
 
-    &:hover {
-      scale: 1.05;
-    }
+  .title-name:hover {
+    scale: 1.05;
+  }
 
-    &:active {
-      position: relative;
-      top: 2px;
-    }
+  .title-name:active {
+    position: relative;
+    top: 2px;
   }
 
   .my-name {
@@ -54,13 +54,13 @@ export const ContainerTopHeader = styled.div`
     justify-content: center;
     margin-bottom: 20px;
     border: 2px solid #fff;
+  }
 
-    img {
-      width: 200px;
-      height: 200px;
-      border-radius: 200px;
-      border: 2px solid #fff;
-    }
+  .container-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 2px solid #fff;
   }
 
   .about-me {
@@ -86,11 +86,10 @@ export const ContainerTopHeader = styled.div`
     border-radius: 8px;
     margin-right: 15px;
     transition: all 0.5s;
+  }
 
-    &:hover {
-      background-color: #00d9ff;
-      box-shadow: 0px 0px 15px rgba(204, 70, 252, 1);
-      color: #18073f;
-    }
+  .icon:hover {
+    background-color: #00d9ff;
+    box-shadow: 0px 0px 15px rgba(204, 70, 252, 1);
   }
 `;
