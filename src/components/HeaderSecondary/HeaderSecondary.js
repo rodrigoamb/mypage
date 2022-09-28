@@ -36,8 +36,9 @@ const HeaderSecondary = () => {
                 estudar e aprender novas habilidades.
               </span>
               <span>
-                Abaixo você confere as tecnologias que eu tenho experiência e se
-                quiser saber mais sobre mim, navegue nos botões abaixo:
+                Abaixo você confere as tecnologias que eu tenho experiência,
+                depoimentos e se quiser saber mais sobre o meu trabalho, clique
+                botões abaixo:
               </span>
             </p>
             <div className='container-btn'>
