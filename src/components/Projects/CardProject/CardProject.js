@@ -7,7 +7,7 @@ const CardProject = ({ addProjects }) => {
       {addProjects.map((item) => (
         <ContainerCardProject>
           <div className='middle-card image-card'>
-            <img src={item.img} alt='projeto' width='350px' height='200px' />
+            <img src={item.img} alt='projeto' width='350px' height='190px' />
           </div>
           <div className='middle-card'>
             <h2>{item.title}</h2>

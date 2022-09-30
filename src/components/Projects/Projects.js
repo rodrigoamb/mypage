@@ -1,5 +1,5 @@
-import React from 'react';
 import CardProject from './CardProject/CardProject';
+
 import { ContainerProject } from './ProjectsStyles';
 
 import { useEffect } from 'react';
