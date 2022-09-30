@@ -4,6 +4,9 @@ import { ContainerProject } from './ProjectsStyles';
 
 import { useEffect } from 'react';
 
+//import addProjects
+import { addProjects } from './addProjects';
+
 //aos
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -15,11 +18,8 @@ const Projects = () => {
 
   return (
     <ContainerProject>
-      <section className='limit-content-projects' data-aos='flip-right'>
-        <CardProject />
-        <CardProject />
-        <CardProject />
-        <CardProject />
+      <section className='limit-content-projects' data-aos='zoom-out'>
+        <CardProject addProjects={addProjects} />
       </section>
     </ContainerProject>
   );

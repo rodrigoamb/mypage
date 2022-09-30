@@ -7,7 +7,7 @@ export const ContainerCardProject = styled.div`
   align-items: flex-start;
   justify-content: space-between;
   padding: 30px;
-  border-bottom: 3px solid #eee;
+  border-bottom: 3px solid #555;
 
   .middle-card {
     width: 49%;
@@ -49,6 +49,7 @@ export const ContainerCardProject = styled.div`
     justify-content: center;
 
     a {
+      cursor: pointer;
       text-decoration: none;
       color: #eee;
       background-color: #ea356f;
