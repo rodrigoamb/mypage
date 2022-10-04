@@ -54,6 +54,26 @@ export const ContainerSectionTech = styled.section`
     margin-top: 5px;
     margin-bottom: 10px;
   }
+
+  @media (max-width: 710px) {
+    .grid-techs {
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 5px;
+    }
+  }
+
+  @media (max-width: 440px) {
+    margin-top: 5px;
+
+    .grid-techs {
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 5px;
+    }
+
+    .icon {
+      font-size: 4.8rem;
+    }
+  }
 `;
 
 export const LogoTech = styled.div`

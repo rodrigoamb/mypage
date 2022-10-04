@@ -41,7 +41,7 @@ export const ContainerHeaderSecondary = styled.div`
     position: relative;
     display: block;
     width: 100%;
-    height: 500px;
+    margin-bottom: 70px;
   }
 
   .curved1 {
@@ -133,6 +133,53 @@ export const ContainerHeaderSecondary = styled.div`
       background-color: #00d9ff;
       box-shadow: 0px 0px 15px #ea356f;
       scale: 1.05;
+    }
+  }
+
+  @media (max-width: 1350px) {
+    .info-card {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 820px) {
+    .card {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+
+    .container-img {
+      width: 100%;
+
+      img {
+        width: 185px;
+        height: 200px;
+      }
+    }
+
+    .info-card {
+      margin: auto;
+      width: 80%;
+    }
+
+    .container-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container-curved {
+      margin-bottom: 10px;
+    }
+
+    .curved1,
+    .curved2,
+    .curved3 {
+      display: none;
     }
   }
 `;

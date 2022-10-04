@@ -9,4 +9,8 @@ export const ContainerHeader = styled.header`
   padding: 20px;
   border-right: 5px solid #372a53;
   position: fixed;
+
+  @media (max-width: 1075px) {
+    display: none;
+  }
 `;

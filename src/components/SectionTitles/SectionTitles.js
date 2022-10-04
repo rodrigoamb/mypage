@@ -14,13 +14,9 @@ const SectionTitles = ({ title, description }) => {
   }, []);
 
   return (
-    <ContainerTitles>
-      <div data-aos='zoom-in' className='limit-content-title'>
-        <div className='container-title'>
-          <span className='detail-title'></span>
-          <h2>{title}</h2>
-        </div>
-
+    <ContainerTitles data-aos='zoom-in' className='limit-content-title'>
+      <div className='limit-title'>
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </ContainerTitles>

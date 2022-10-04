@@ -5,4 +5,8 @@ export const ContainerHome = styled.main`
   min-height: 100vh;
   position: absolute;
   right: 0;
+
+  @media (max-width: 1075px) {
+    width: 100%;
+  }
 `;

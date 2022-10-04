@@ -1,47 +1,34 @@
 import styled from 'styled-components';
 
 export const ContainerTitles = styled.div`
-  margin-top: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 30px 0;
 
-  .limit-content-title {
-    text-align: center;
-    padding: 0 30px;
-    width: 60%;
-  }
-
-  .container-title {
+  .limit-title {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
     align-items: center;
-    justify-content: start;
-  }
+    justify-content: center;
+    color: white;
 
-  .detail-title {
-    padding: 35px;
-    display: inline-block;
-    width: 180px;
-    height: 60px;
-    border-left: 8px solid #7f00be;
-    border-bottom: 8px solid #7f00be;
-    margin-bottom: 5px;
-  }
+    h2 {
+      color: #ea356f;
+      font-size: 2.8rem;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 8px solid #661377;
+    }
 
-  .container-title h2 {
-    margin-bottom: 5px;
-    font-size: 3rem;
-    display: inline-block;
-    margin-left: -160px;
-    color: #ea356f;
-  }
+    @media (max-width: 775px) {
+      width: 80%;
+      text-align: center;
 
-  p {
-    margin-top: 5px;
-    font-size: 1rem;
-    color: #eee;
+      h2 {
+        font-size: 2.3rem;
+      }
+    }
   }
 `;
