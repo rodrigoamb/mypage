@@ -1,69 +1,112 @@
 import styled from 'styled-components';
 
 export const ContainerCardProject = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
   padding: 30px;
-  border-bottom: 3px solid #555;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 30px;
+  color: white;
+  border-bottom: 5px solid #555;
 
   .middle-card {
-    width: 49%;
-    height: 250px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 10px;
+    width: 50%;
+    margin-left: 50px;
 
     h2 {
-      color: #eee;
-      font-size: 1.6rem;
+      margin-bottom: 10px;
     }
 
     p {
-      color: #eee;
+      padding-bottom: 20px;
+    }
 
-      span {
-        font-weight: bold;
-      }
+    span {
+      font-weight: bold;
     }
   }
 
   .image-card {
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
 
     img {
-      border: 3px solid #eee;
+      border: 4px solid #eee;
     }
   }
 
   .container-btn-card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
+    padding: 10px;
+    margin-top: 10px;
     a {
-      cursor: pointer;
+      color: white;
       text-decoration: none;
-      color: #eee;
+      border-radius: 8px;
       background-color: #ea356f;
       padding: 10px 20px;
-      margin-right: 10px;
+      margin-right: 5px;
       margin-bottom: 5px;
-      border-radius: 8px;
-      transition: 0.2s;
+    }
+  }
 
-      &:hover {
-        background-color: #00d9ff;
-        color: #18073f;
-        scale: 1.05;
-        box-shadow: 0px 0px 15px #ea356f;
+  @media (max-width: 1450px) {
+    flex-direction: column;
+    align-items: center;
+
+    .middle-card {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1450px) {
+    .middle-card {
+      h2 {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 1075px) {
+    .middle-card {
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 630px) {
+    width: 95%;
+    .image-card {
+      background-color: yellow;
+
+      img {
+        width: 250px;
+        height: 150px;
+      }
+    }
+
+    .middle-card {
+      margin: auto;
+      width: 100%;
+
+      h2 {
+        margin-top: 15px;
+      }
+    }
+
+    .container-btn-card {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+
+      a {
+        margin-bottom: 15px;
       }
     }
   }

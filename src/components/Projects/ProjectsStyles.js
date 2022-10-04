@@ -6,12 +6,14 @@ export const ContainerProject = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  padding: 20px;
 
   .limit-content-projects {
-    width: 60%;
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
   }
 `;
