@@ -18,7 +18,7 @@ const Projects = () => {
 
   return (
     <ContainerProject>
-      <section className='limit-content-projects' data-aos='zoom-out'>
+      <section className='limit-content-projects' data-aos='fade-down'>
         <CardProject addProjects={addProjects} />
       </section>
     </ContainerProject>

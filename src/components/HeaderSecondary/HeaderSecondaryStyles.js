@@ -143,8 +143,16 @@ export const ContainerHeaderSecondary = styled.div`
   }
 
   @media (max-width: 820px) {
+    background: rgb(24, 7, 63);
+    background: linear-gradient(
+      0deg,
+      rgba(24, 7, 63, 1) 0%,
+      rgba(102, 19, 119, 1) 100%
+    );
+    padding-bottom: 20px;
+
     .card {
-      width: 90%;
+      width: 95%;
       margin: auto;
       text-align: center;
       flex-direction: column-reverse;

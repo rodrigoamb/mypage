@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const ContainerFormMsg = styled.div`
-  min-height: 635px;
-  margin-top: 35px;
+  min-height: 680px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,6 +114,12 @@ export const ContainerFormMsg = styled.div`
   @keyframes spinner-zp9dbg {
     to {
       transform: rotate(1turn);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .limit-content-form {
+      width: 90%;
     }
   }
 `;

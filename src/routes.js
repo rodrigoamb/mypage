@@ -9,14 +9,11 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
 
-//imports styles
-import { ContainerApp } from './routesStyles';
-
 const RoutesApp = () => {
   return (
     <BrowserRouter>
       <Header />
-      <ContainerApp>
+      <div>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/portfolio' element={<Portfolio />} />
@@ -24,7 +21,7 @@ const RoutesApp = () => {
 
           <Route path='*' element={<ErrorPage />} />
         </Routes>
-      </ContainerApp>
+      </div>
     </BrowserRouter>
   );
 };

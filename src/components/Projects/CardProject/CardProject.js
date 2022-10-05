@@ -4,8 +4,8 @@ import { ContainerCardProject } from './CardProjectStyles';
 const CardProject = ({ addProjects }) => {
   return (
     <>
-      {addProjects.map((item) => (
-        <ContainerCardProject>
+      {addProjects.map((item, index) => (
+        <ContainerCardProject key={index}>
           <div className='image-card'>
             <img src={item.img} alt='projeto' width='350px' height='190px' />
           </div>
