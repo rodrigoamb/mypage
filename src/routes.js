@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //components
 import Header from './components/Header/Header';
+import HeaderTop from './components/HeaderTop/HeaderTop';
 
 //import pages
 import Home from './pages/Home/Home';
@@ -12,6 +13,7 @@ import ErrorPage from './pages/ErrorPage/ErrorPage';
 const RoutesApp = () => {
   return (
     <BrowserRouter>
+      <HeaderTop />
       <Header />
       <div>
         <Routes>

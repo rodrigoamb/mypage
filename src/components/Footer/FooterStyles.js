@@ -13,5 +13,6 @@ export const ContainerFooter = styled.footer`
 
   span {
     color: #eee;
+    text-align: center;
   }
 `;
