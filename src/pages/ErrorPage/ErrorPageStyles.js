@@ -36,4 +36,18 @@ export const ContainerErrorPage = styled.div`
       scale: 1.1;
     }
   }
+
+  @media (max-width: 1075px) {
+    width: 100%;
+    margin-top: 150px;
+    max-height: 300px;
+    justify-content: flex-start;
+
+    .icon,
+    .msg-error,
+    .btn-return-home {
+      text-align: center;
+      scale: 0.8;
+    }
+  }
 `;
