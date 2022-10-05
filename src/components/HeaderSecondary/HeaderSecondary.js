@@ -1,18 +1,18 @@
 //styles
-import { ContainerHeaderSecondary } from './HeaderSecondaryStyles';
+import { ContainerHeaderSecondary } from "./HeaderSecondaryStyles";
 
 //react-router-dom
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 //assets
-import mePhoto from '../../assets/me.jpg';
+import mePhoto from "../../assets/me.jpg";
 
 //aos
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 //hooks react
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 const HeaderSecondary = () => {
   useEffect(() => {
@@ -21,9 +21,9 @@ const HeaderSecondary = () => {
 
   return (
     <ContainerHeaderSecondary>
-      <div className='container-curved'>
-        <section data-aos='fade-right' className='card'>
-          <div className='info-card'>
+      <div className="container-curved">
+        <section data-aos="fade-right" className="card">
+          <div className="info-card">
             <h1>Rodrigo Medeiros</h1>
             <h2>Front-End Web Developer</h2>
             <p>
@@ -41,23 +41,23 @@ const HeaderSecondary = () => {
                 botões abaixo:
               </span>
             </p>
-            <div className='container-btn'>
-              <Link to={'/portfolio'} className='btn-card'>
+            <div className="container-btn">
+              <Link to={"/portfolio"} className="btn-card">
                 Ver Portfólio
               </Link>
-              <Link to={'/contato'} className='btn-card'>
+              <Link to={"/contato"} className="btn-card">
                 Me mande uma mensagem
               </Link>
             </div>
           </div>
-          <div className='container-img'>
-            <img className='img-card' src={mePhoto} alt='Rodrigo' />
+          <div className="container-img">
+            <img className="img-card" src={mePhoto} alt="Rodrigo" />
           </div>
         </section>
 
-        <div className='curved1'></div>
-        <div className='curved2'></div>
-        <div className='curved3'></div>
+        <div className="curved1"></div>
+        <div className="curved2"></div>
+        <div className="curved3"></div>
       </div>
     </ContainerHeaderSecondary>
   );

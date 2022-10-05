@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContainerFormMsg = styled.div`
-  min-height: 680px;
+  min-height: 790px;
   display: flex;
   flex-direction: column;
   justify-content: center;
