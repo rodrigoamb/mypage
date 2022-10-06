@@ -1,17 +1,17 @@
-import { ContainerContact } from './ContactStyles';
+import { ContainerContact } from "./ContactStyles";
 
-import Footer from '../../components/Footer/Footer';
-import SectionTitles from '../../components/SectionTitles/SectionTitles';
-import FormMsg from '../../components/FormMsg/FormMsg';
+import Footer from "../../components/Footer/Footer";
+import SectionTitles from "../../components/SectionTitles/SectionTitles";
+import FormMsg from "../../components/FormMsg/FormMsg";
 
-const Contact = () => {
+const Contact = ({ menuIsVisible }) => {
   return (
     <>
-      <ContainerContact>
+      <ContainerContact menuIsVisible={menuIsVisible}>
         <SectionTitles
-          title={'Me envie uma mensagem...'}
+          title={"Me envie uma mensagem..."}
           description={
-            'Entre em contato diretamente comigo preenchendo os campos abaixo:'
+            "Entre em contato diretamente comigo preenchendo os campos abaixo:"
           }
         />
         <FormMsg />

@@ -35,10 +35,7 @@ const RoutesApp = () => {
             element={<Contact menuIsVisible={menuIsVisible} />}
           />
 
-          <Route
-            path="*"
-            element={<ErrorPage menuIsVisible={menuIsVisible} />}
-          />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </div>
     </BrowserRouter>
