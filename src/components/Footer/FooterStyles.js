@@ -15,4 +15,10 @@ export const ContainerFooter = styled.footer`
     color: #eee;
     text-align: center;
   }
+
+  @media (max-width: 600px) {
+    span {
+      width: 80%;
+    }
+  }
 `;

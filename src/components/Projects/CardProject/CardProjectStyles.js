@@ -92,8 +92,8 @@ export const ContainerCardProject = styled.div`
       background-color: yellow;
 
       img {
-        width: 250px;
-        height: 150px;
+        width: 190px;
+        height: 110px;
       }
     }
 
