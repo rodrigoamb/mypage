@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { css } from 'styled-components';
+import styled from "styled-components";
+import { css } from "styled-components";
 
 export const ContainerMenu = styled.nav`
   font-size: 1.2rem;
@@ -89,6 +89,14 @@ export const ContainerMenu = styled.nav`
       opacity: 1;
       pointer-events: auto;
       transform: translateY(0px);
+
+      html,
+      body {
+        overflow-y: hidden;
+      }
+      body {
+        position: relative;
+      }
 
       .icon-close {
         transform: rotate(0deg);
