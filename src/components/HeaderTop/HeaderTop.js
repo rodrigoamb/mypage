@@ -3,7 +3,7 @@ import { Container } from './HeaderTopStyles';
 import { IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 
-const HeaderTop = () => {
+const HeaderTop = ({ setMenuIsVisible }) => {
   return (
     <Container>
       <div className='limit-content'>
@@ -17,7 +17,10 @@ const HeaderTop = () => {
           </Link>
         </div>
 
-        <IoMdMenu className='icon-burger' />
+        <IoMdMenu
+          className='icon-burger'
+          onClick={() => setMenuIsVisible(true)}
+        />
       </div>
     </Container>
   );
