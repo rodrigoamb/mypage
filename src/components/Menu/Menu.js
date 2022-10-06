@@ -1,30 +1,35 @@
-import React from 'react';
-import { ContainerMenu } from './MenuStyles';
-import { NavLink } from 'react-router-dom';
+import React from "react";
 
-import { IoMdClose } from 'react-icons/io';
-import { useEffect } from 'react';
+//styles
+import { ContainerMenu } from "./MenuStyles";
+
+//react router dom
+import { NavLink } from "react-router-dom";
+
+//hooks react
+import { useEffect } from "react";
 
 //react icons
-import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { IoMdClose } from "react-icons/io";
 
 const Menu = ({ menuIsVisible, setMenuIsVisible }) => {
   useEffect(() => {
-    document.body.style.overflowY = menuIsVisible ? 'hidden' : 'auto';
+    document.body.style.overflowY = menuIsVisible ? "hidden" : "auto";
   }, [menuIsVisible]);
 
   return (
     <ContainerMenu menuIsVisible={menuIsVisible}>
       <IoMdClose
-        className='icon-close'
+        className="icon-close"
         onClick={() => setMenuIsVisible(false)}
       />
 
-      <ul className='content-ul'>
+      <ul className="content-ul">
         <li>
           <NavLink
-            className='btn-nav'
-            to={'/'}
+            className="btn-nav"
+            to={"/"}
             onClick={() => setMenuIsVisible(false)}
           >
             Sobre mim
@@ -32,8 +37,8 @@ const Menu = ({ menuIsVisible, setMenuIsVisible }) => {
         </li>
         <li>
           <NavLink
-            className='btn-nav'
-            to={'/portfolio'}
+            className="btn-nav"
+            to={"/portfolio"}
             onClick={() => setMenuIsVisible(false)}
           >
             Portfólio
@@ -41,8 +46,8 @@ const Menu = ({ menuIsVisible, setMenuIsVisible }) => {
         </li>
         <li>
           <NavLink
-            className='btn-nav'
-            to={'/contato'}
+            className="btn-nav"
+            to={"/contato"}
             onClick={() => setMenuIsVisible(false)}
           >
             Contato
@@ -50,14 +55,26 @@ const Menu = ({ menuIsVisible, setMenuIsVisible }) => {
         </li>
       </ul>
 
-      <div className='container-icons'>
-        <a className='icon' href='htttp://google.com.br' target={'blank'}>
+      <div className="container-icons">
+        <a
+          className="icon"
+          href="https://www.instagram.com/rodrigomedeiros.b"
+          target={"blank"}
+        >
           <FaInstagram />
         </a>
-        <a className='icon' href='htttp://google.com.br' target={'blank'}>
+        <a
+          className="icon"
+          href="https://github.com/rodrigoamb"
+          target={"blank"}
+        >
           <FaGithub />
         </a>
-        <a className='icon' href='htttp://google.com.br' target={'blank'}>
+        <a
+          className="icon"
+          href="https://www.linkedin.com/in/rodrigomedeirosdev/"
+          target={"blank"}
+        >
           <FaLinkedinIn />
         </a>
       </div>

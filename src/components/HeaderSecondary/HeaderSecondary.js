@@ -25,13 +25,13 @@ const HeaderSecondary = () => {
         <section data-aos="fade-right" className="card">
           <div className="info-card">
             <h1>Rodrigo Medeiros</h1>
-            <h2>Front-End Web Developer</h2>
+            <h2>Desenvolvedor Front-End</h2>
             <p>
               <span>
                 Sou desenvolvedor de software com foco em Front-End Web,
-                atualmente estou buscando evoluir ainda mais os estudos com
-                ferramentas Back-End para tornar-me um Dev Full-Stack.
-                Atualmente estou cursando a faculdade de Análise e
+                atualmente estou buscando evoluir ainda mais com o estudos de
+                tecnologias Front-End e Back-End afim de tornar-me um Dev
+                Full-Stack. Atualmente estou cursando a faculdade de Análise e
                 Desenvolvimento de Sistemas, sou apaixonado por tecnologia, amo
                 estudar e aprender novas habilidades.
               </span>

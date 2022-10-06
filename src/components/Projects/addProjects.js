@@ -1,40 +1,33 @@
-import tech1 from '../../assets/imgTechs/project1.png';
+import tech1 from "../../assets/imgTechs/project1.png";
+import tech2 from "../../assets/imgTechs/project2.png";
+import tech3 from "../../assets/imgTechs/project3.png";
 
 export const addProjects = [
   {
-    title: 'Página Portfólio',
+    title: "Minha página Portfólio",
     description:
-      'Lorem 1 ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellat alias veritatis autem reprehenderit officia cumque sequi nesciunt aperiam minus, quia iste reiciendis aliquam velit!',
-    techs: 'Javascript, ReactJS, Styled-Components, Git, libs complementares. ',
+      "Com o objetivo de ter uma página própria para expor outros projetos desenvolvidos por mim, esta página que você está navegando foi 100% criado por mim desde a concepção, escolha da paleta de cores e codificação. Foi utilizado na construção da interface o ReactJS abordando os conceitos de componentes, utilizei o Styled-Components para estilização e libs complementares como AOS e EmailJS. ",
+    techs: "Javascript, ReactJS, Styled-Components, Git, libs complementares. ",
     img: tech1,
-    page: 'https://www.google.com.br',
-    code: 'https://github.com/',
+    page: "https://www.rodrigomedeirosdev.com.br",
+    code: "https://github.com/rodrigoamb/mypage",
   },
   {
-    title: 'Título do projeto 2',
+    title: "Tic Tac Toe",
     description:
-      'Lorem 2 ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellat alias veritatis autem reprehenderit officia cumque sequi nesciunt aperiam minus, quia iste reiciendis aliquam velit!',
-    techs: 'Html, CSS, Javascript, ReactJS.',
-    img: 'https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/11/Como-Fazer-o-Layout-de-Um-Site-em-6-Passos-facebook.png',
-    page: 'https://www.google.com.br',
-    code: 'https://github.com/',
+      "Com objetivo de estudar e praticar alguns conceitos de Javascript, elaborei um Projeto de Jogo da Velha. Apesar de ser um projeto simples, aborda conceitos básicos de Javascript como condicionais, funções, eventos, manipulação do DOM e estruturas de repetição",
+    techs: "Html, CSS, Vanilla Javascript.",
+    img: tech2,
+    page: "https://rodrigoamb.github.io/tictactoejs/",
+    code: "https://github.com/rodrigoamb/tictactoejs",
   },
   {
-    title: 'Título do projeto 3',
+    title: "Cards Pokémon",
     description:
-      'Lorem 3 ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellat alias veritatis autem reprehenderit officia cumque sequi nesciunt aperiam minus, quia iste reiciendis aliquam velit!',
-    techs: 'Html, CSS, Javascript, ReactJS.',
-    img: 'https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/11/Como-Fazer-o-Layout-de-Um-Site-em-6-Passos-facebook.png',
-    page: 'https://www.google.com.br',
-    code: 'https://github.com/',
-  },
-  {
-    title: 'Título do projeto 4',
-    description:
-      'Lorem 4 ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellat alias veritatis autem reprehenderit officia cumque sequi nesciunt aperiam minus, quia iste reiciendis aliquam velit!',
-    techs: 'Html, CSS, Javascript, ReactJS.',
-    img: 'https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/11/Como-Fazer-o-Layout-de-Um-Site-em-6-Passos-facebook.png',
-    page: 'https://www.google.com.br',
-    code: 'https://github.com/',
+      "Com objetivo de estudar e praticar Vanilla JS, o projeto Cards Pokémon tem como principal tarefa consumir uma API. Utilizando async/await e o fetch é consumido então a PokeAPI e através do retorno das requisições feitas é construído os CARDS com alguns dados retornados.",
+    techs: "Html, CSS, Javascript.",
+    img: tech3,
+    page: "https://rodrigoamb.github.io/pokemonfilter2.0/",
+    code: "https://github.com/rodrigoamb/pokemonfilter2.0",
   },
 ];
