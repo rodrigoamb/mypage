@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const ContainerFormMsg = styled.div`
-  min-height: 680px;
+  margin-top: 30px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +22,7 @@ export const ContainerFormMsg = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   span {
     color: white;
