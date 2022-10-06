@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContainerFormMsg = styled.div`
-  min-height: 790px;
+  min-height: 680px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,7 +117,12 @@ export const ContainerFormMsg = styled.div`
     }
   }
 
+  @media (max-width: 1075px) {
+    min-height: 580px;
+  }
+
   @media (max-width: 900px) {
+    min-height: 580px;
     .limit-content-form {
       width: 90%;
     }
