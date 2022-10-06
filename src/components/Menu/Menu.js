@@ -5,6 +5,9 @@ import { NavLink } from 'react-router-dom';
 import { IoMdClose } from 'react-icons/io';
 import { useEffect } from 'react';
 
+//react icons
+import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+
 const Menu = ({ menuIsVisible, setMenuIsVisible }) => {
   useEffect(() => {
     document.body.style.overflowY = menuIsVisible ? 'hidden' : 'auto';
@@ -12,6 +15,11 @@ const Menu = ({ menuIsVisible, setMenuIsVisible }) => {
 
   return (
     <ContainerMenu menuIsVisible={menuIsVisible}>
+      <IoMdClose
+        className='icon-close'
+        onClick={() => setMenuIsVisible(false)}
+      />
+
       <ul className='content-ul'>
         <li>
           <NavLink
@@ -41,10 +49,18 @@ const Menu = ({ menuIsVisible, setMenuIsVisible }) => {
           </NavLink>
         </li>
       </ul>
-      <IoMdClose
-        className='icon-close'
-        onClick={() => setMenuIsVisible(false)}
-      />
+
+      <div className='container-icons'>
+        <a className='icon' href='htttp://google.com.br' target={'blank'}>
+          <FaInstagram />
+        </a>
+        <a className='icon' href='htttp://google.com.br' target={'blank'}>
+          <FaGithub />
+        </a>
+        <a className='icon' href='htttp://google.com.br' target={'blank'}>
+          <FaLinkedinIn />
+        </a>
+      </div>
     </ContainerMenu>
   );
 };

@@ -66,6 +66,23 @@ export const ContainerMenu = styled.nav`
     }
   }
 
+  .container-icons {
+    margin-top: 3rem;
+    scale: 0.3;
+    transform: rotate(45deg);
+    transition: all 1s;
+
+    .icon {
+      color: #eee;
+      font-size: 2.3rem;
+      padding: 20px;
+
+      &:hover {
+        color: #ea356f;
+      }
+    }
+  }
+
   ${({ menuIsVisible }) =>
     menuIsVisible &&
     css`
@@ -79,6 +96,11 @@ export const ContainerMenu = styled.nav`
 
       .content-ul {
         scale: 1;
+      }
+
+      .container-icons {
+        scale: 1;
+        transform: rotate(0deg);
       }
     `};
 `;
