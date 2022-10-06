@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContainerCardProject = styled.div`
   padding: 30px;
@@ -49,6 +49,12 @@ export const ContainerCardProject = styled.div`
       padding: 10px 20px;
       margin-right: 5px;
       margin-bottom: 5px;
+
+      &:hover {
+        color: #18073f;
+        background-color: #00d9ff;
+        box-shadow: 0px 0px 15px #ea356f;
+      }
     }
   }
 
