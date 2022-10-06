@@ -14,7 +14,6 @@ export const Container = styled.div`
 
     .limit-content {
       width: 85%;
-      /* background-color: red; */
       display: flex;
       flex-direction: row;
       align-items: center;

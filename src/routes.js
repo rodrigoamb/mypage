@@ -15,7 +15,7 @@ import Menu from './components/Menu/Menu';
 import { useState } from 'react';
 
 const RoutesApp = () => {
-  const [menuIsVisible, setMenuIsVisible] = useState(true);
+  const [menuIsVisible, setMenuIsVisible] = useState(false);
 
   return (
     <BrowserRouter>

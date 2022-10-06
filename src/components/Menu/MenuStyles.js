@@ -6,8 +6,8 @@ export const ContainerMenu = styled.nav`
   background: rgb(204, 70, 252);
   background: linear-gradient(
     0deg,
-    rgba(204, 70, 252, 0.85) 0%,
-    rgba(30, 50, 154, 0.8995973389355743) 37%
+    rgba(204, 70, 252, 0.9) 0%,
+    rgba(30, 50, 154, 0.9) 37%
   );
   backdrop-filter: blur(8px);
   display: flex;
