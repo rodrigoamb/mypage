@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const ContainerContact = styled.main`
   width: calc(100% - 300px);
