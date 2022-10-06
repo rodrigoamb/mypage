@@ -9,7 +9,7 @@ export const addProjects = [
       "Com o objetivo de ter uma página própria para expor outros projetos desenvolvidos por mim, esta página que você está navegando foi 100% criado por mim desde a concepção, escolha da paleta de cores e codificação. Foi utilizado na construção da interface o ReactJS abordando os conceitos de componentes, utilizei o Styled-Components para estilização e libs complementares como AOS e EmailJS. ",
     techs: "Javascript, ReactJS, Styled-Components, Git, libs complementares. ",
     img: tech1,
-    page: "https://www.rodrigomedeirosdev.com.br",
+    page: "https://www.rodrigo-dev.netlify.app",
     code: "https://github.com/rodrigoamb/mypage",
   },
   {

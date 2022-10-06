@@ -86,17 +86,14 @@ export const ContainerMenu = styled.nav`
   ${({ menuIsVisible }) =>
     menuIsVisible &&
     css`
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
       opacity: 1;
       pointer-events: auto;
       transform: translateY(0px);
-
-      html,
-      body {
-        overflow-y: hidden;
-      }
-      body {
-        position: relative;
-      }
 
       .icon-close {
         transform: rotate(0deg);

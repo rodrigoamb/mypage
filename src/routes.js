@@ -25,11 +25,20 @@ const RoutesApp = () => {
       <Header />
       <div>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contato" element={<Contact />} />
+          <Route path="/" element={<Home menuIsVisible={menuIsVisible} />} />
+          <Route
+            path="/portfolio"
+            element={<Portfolio menuIsVisible={menuIsVisible} />}
+          />
+          <Route
+            path="/contato"
+            element={<Contact menuIsVisible={menuIsVisible} />}
+          />
 
-          <Route path="*" element={<ErrorPage />} />
+          <Route
+            path="*"
+            element={<ErrorPage menuIsVisible={menuIsVisible} />}
+          />
         </Routes>
       </div>
     </BrowserRouter>
