@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContainerFormMsg = styled.div`
   margin-top: 30px;
@@ -71,6 +71,10 @@ export const ContainerFormMsg = styled.div`
     letter-spacing: 1px;
     border-radius: 20px;
     font-family: sans-serif;
+
+    &:placeholder-shown {
+      letter-spacing: 1px;
+    }
   }
 
   .btn-submit {

@@ -31,14 +31,14 @@ const HeaderSecondary = () => {
                 Sou desenvolvedor de software com foco em Front-End Web,
                 atualmente estou buscando evoluir ainda mais com o estudos de
                 tecnologias Front-End e Back-End afim de tornar-me um Dev
-                Full-Stack. Atualmente estou cursando a faculdade de Análise e
-                Desenvolvimento de Sistemas, sou apaixonado por tecnologia, amo
-                estudar e aprender novas habilidades.
+                Full-Stack. Sou acadêmico do curso de Análise e Desenvolvimento
+                de Sistemas, sou apaixonado por tecnologia e em aprender novas
+                habilidades da área.
               </span>
               <span>
                 Abaixo você confere as tecnologias que eu tenho experiência,
                 depoimentos e se quiser saber mais sobre o meu trabalho, clique
-                botões abaixo:
+                nos botões abaixo:
               </span>
             </p>
             <div className="container-btn">

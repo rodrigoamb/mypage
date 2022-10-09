@@ -12,7 +12,7 @@ import Footer from "../../components/Footer/Footer";
 const Home = ({ menuIsVisible }) => {
   const titleTech = "Tecnologias que eu uso...";
   const descriptionTech =
-    "No decorrer dos estudos e participação em cursos, adquiri experiências nas seguintes tecnologias:";
+    "No decorrer dos estudos e práticas, adquiri experiências nas seguintes tecnologias:";
 
   const titleDepositions = "Alguns depoimentos...";
   const descriptionDepositions = "Veja o que as pessoas acham do meu trabalho:";

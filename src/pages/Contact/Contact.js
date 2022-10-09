@@ -9,7 +9,7 @@ const Contact = ({ menuIsVisible }) => {
     <>
       <ContainerContact menuIsVisible={menuIsVisible}>
         <SectionTitles
-          title={"Me envie uma mensagem..."}
+          title={"Me mande uma mensagem..."}
           description={
             "Entre em contato diretamente comigo preenchendo os campos abaixo:"
           }

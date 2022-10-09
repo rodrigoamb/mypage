@@ -24,7 +24,7 @@ export const addProjects = [
   {
     title: "Cards Pokémon",
     description:
-      "Com objetivo de estudar e praticar Vanilla JS, o projeto Cards Pokémon tem como principal tarefa consumir uma API. Utilizando async/await e o fetch é consumido então a PokeAPI e através do retorno das requisições feitas é construído os CARDS com alguns dados retornados.",
+      "Com objetivo de estudar e praticar Vanilla JS, o projeto Cards Pokémon tem como principal tarefa consumir uma API. Utilizando async/await e o fetch, é consumido então a PokeAPI que através do retorno das requisições feitas é construído os CARDS em tela.",
     techs: "Html, CSS, Javascript.",
     img: tech3,
     page: "https://rodrigoamb.github.io/pokemonfilter2.0/",
