@@ -14,6 +14,7 @@ export const ContainerDepositions = styled.section`
     flex-wrap: wrap;
     width: 80%;
     row-gap: 40px;
+    column-gap: 40px;
     padding: 20px;
   }
 `;

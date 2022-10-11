@@ -20,8 +20,8 @@ const CardDepositions = () => {
   const deposition = DepositionsList;
 
   return (
-    <ContainerDepositions data-aos='fade-up'>
-      <div className='limit-cards'>
+    <ContainerDepositions data-aos="fade-up">
+      <div className="limit-cards">
         {deposition.map((item) => (
           <Card
             key={item.id}

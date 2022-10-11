@@ -1,19 +1,20 @@
+import photo1 from '../../assets/peoples/people1.jpeg';
+
 export const DepositionsList = [
   {
     id: 1,
-    photo:
-      'https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909__340.png',
-    deponent: 'Maria Marques',
-    profession: 'Dev Front-End',
+    photo: photo1,
+    deponent: 'Carlos José',
+    profession: 'Dev Sênior Front-End',
     deposition:
-      '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore harum quo rem voluptates ipsa sapiente nostrum numquam, non tenetur est!"',
+      '"Rodrigo é meu aluno e tem sido um dos maiores destaques da turma, sempre fazendo todas as entregas com excelência, nunca só no básico mas sim sempre no excelente. No aspecto pessoal demostra ter uma convivência muito agradável e espirito colaborativo!"',
   },
   {
     id: 2,
     photo:
       'https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909__340.png',
-    deponent: 'Marcos Sampaio',
-    profession: 'Dev Full-stack',
+    deponent: 'Nome',
+    profession: 'cargo',
     deposition:
       '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem maiores labore id tenetur pariatur sequi repudiandae consequatur magni. Vel hic consectetur quis error eligendi itaque dignissimos iure dicta id repellendus."',
   },
@@ -21,8 +22,8 @@ export const DepositionsList = [
     id: 3,
     photo:
       'https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909__340.png',
-    deponent: 'Lucas Lima',
-    profession: 'Dev Full-stack',
+    deponent: 'Nome',
+    profession: 'Cargo',
     deposition:
       '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem maiores labore id tenetur pariatur sequi repudiandae consequatur magni. Vel hic consectetur quis error eligendi itaque dignissimos iure dicta id repellendus."',
   },
