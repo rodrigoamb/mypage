@@ -15,5 +15,6 @@ export const ContainerProject = styled.div`
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    max-width: 1920px;
   }
 `;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContainerFormMsg = styled.div`
   margin-top: 30px;
@@ -14,6 +14,7 @@ export const ContainerFormMsg = styled.div`
     flex-wrap: wrap;
     align-items: center;
     width: 60%;
+    max-width: 700px;
   }
 
   label {

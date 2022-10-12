@@ -34,6 +34,7 @@ const Home = ({ menuIsVisible }) => {
       <div className="empty-space"></div>
       <Button description={'Me mande uma mensagem'} to={'/contato'} />
       <div className="empty-space"></div>
+
       <Footer />
     </ContainerHome>
   );

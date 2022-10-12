@@ -16,5 +16,6 @@ export const ContainerDepositions = styled.section`
     row-gap: 40px;
     column-gap: 40px;
     padding: 20px;
+    max-width: 1300px;
   }
 `;

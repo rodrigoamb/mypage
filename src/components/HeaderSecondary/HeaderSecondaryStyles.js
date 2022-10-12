@@ -87,6 +87,7 @@ export const ContainerHeaderSecondary = styled.div`
     width: 40%;
     margin-right: 35px;
     color: #eee;
+    max-width: 670px;
   }
 
   .info-card h1 {
@@ -107,9 +108,7 @@ export const ContainerHeaderSecondary = styled.div`
   }
 
   .img-card {
-    width: 250;
-    height: 250px;
-    border: 3px solid #eee;
+    display: none;
   }
 
   .container-btn {
@@ -133,6 +132,15 @@ export const ContainerHeaderSecondary = styled.div`
       background-color: #00d9ff;
       box-shadow: 0px 0px 15px #ea356f;
       scale: 1.05;
+    }
+  }
+
+  @media (max-width: 1075px) {
+    .img-card {
+      width: 250;
+      height: 250px;
+      border: 3px solid #eee;
+      display: inline;
     }
   }
 

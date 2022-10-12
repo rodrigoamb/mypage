@@ -22,6 +22,7 @@ export const ContainerSectionTech = styled.section`
     display: flex;
     justify-content: center;
     width: 70%;
+    max-width: 1000px;
   }
 
   .grid-techs {

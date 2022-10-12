@@ -1,12 +1,15 @@
 import React from 'react';
 
-import { ContainerFooter } from './FooterStyles';
+import { ContainerFooter, EmptySpace } from './FooterStyles';
 
 const Footer = () => {
   return (
-    <ContainerFooter>
-      <span>Desenvolvido por Rodrigo Medeiros &copy; 2022</span>
-    </ContainerFooter>
+    <>
+      <EmptySpace></EmptySpace>
+      <ContainerFooter>
+        <span>Desenvolvido por Rodrigo Medeiros &copy; 2022</span>
+      </ContainerFooter>
+    </>
   );
 };
 

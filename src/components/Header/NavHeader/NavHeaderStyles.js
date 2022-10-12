@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const ContainerNavBar = styled.nav`
-  height: 150px;
-  height: 800px;
+  height: 100vh;
   border: none;
   position: relative;
   bottom: -20px;
