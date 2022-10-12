@@ -1,19 +1,19 @@
 // react-icons
-import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 //import react-router-dom
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 //import assets
-import PictureRound from "../../../assets/profilePicture.png";
-import { ContainerTopHeader } from "./TopHeaderStyles";
+import PictureRound from '../../../assets/profilePicture.png';
+import { ContainerTopHeader } from './TopHeaderStyles';
 
 //aos
-import Aos from "aos";
-import "aos/dist/aos.css";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 //hooks react
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 const TopHeader = () => {
   useEffect(() => {
@@ -23,12 +23,12 @@ const TopHeader = () => {
   return (
     <ContainerTopHeader>
       <div className="container-top-header" data-aos="fade-right">
-        <Link to={"/"} className="title-name">
-          <span className="symbol-keys">{"{ "}</span>
-          <span className="symbol-big-small-then">{"< "}</span>
+        <Link to={'/'} className="title-name">
+          <span className="symbol-keys">{'{ '}</span>
+          <span className="symbol-big-small-then">{'< '}</span>
           <span className="my-name">RodrigoMedeiros</span>
-          <span className="symbol-big-small-then">{" />"}</span>
-          <span className="symbol-keys">{" }"}</span>
+          <span className="symbol-big-small-then">{' />'}</span>
+          <span className="symbol-keys">{' }'}</span>
         </Link>
 
         <div className="container-img">
@@ -44,21 +44,21 @@ const TopHeader = () => {
           <a
             className="icon"
             href="https://www.instagram.com/rodrigomedeiros.b"
-            target={"blank"}
+            target={'blank'}
           >
             <FaInstagram />
           </a>
           <a
             className="icon"
             href="https://github.com/rodrigoamb"
-            target={"blank"}
+            target={'blank'}
           >
             <FaGithub />
           </a>
           <a
             className="icon"
             href="https://www.linkedin.com/in/rodrigomedeirosdev/"
-            target={"blank"}
+            target={'blank'}
           >
             <FaLinkedinIn />
           </a>

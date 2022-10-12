@@ -35,4 +35,20 @@ export const ContainerCard = styled.div`
     top: -20px;
     left: -10px;
   }
+
+  .container-title-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon {
+      color: white;
+      font-size: 2rem;
+      background-color: #ea356f;
+      border-radius: 5px;
+      padding: 5px;
+    }
+  }
 `;

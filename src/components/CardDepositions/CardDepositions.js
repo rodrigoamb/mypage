@@ -29,6 +29,7 @@ const CardDepositions = () => {
             deponent={item.deponent}
             profession={item.profession}
             deposition={item.deposition}
+            linkedin={item.linkedin}
           />
         ))}
       </div>

@@ -8,6 +8,7 @@ export const DepositionsList = [
     profession: 'Dev Sênior Front-End',
     deposition:
       '"Rodrigo é meu aluno e tem sido um dos maiores destaques da turma, sempre fazendo todas as entregas com excelência, nunca só no básico mas sim sempre no excelente. No aspecto pessoal demostra ter uma convivência muito agradável e espirito colaborativo!"',
+    linkedin: 'https://www.linkedin.com/in/carlosxjm/',
   },
   {
     id: 2,

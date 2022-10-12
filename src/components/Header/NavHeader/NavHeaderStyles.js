@@ -31,7 +31,7 @@ export const ContainerNavBar = styled.nav`
     text-decoration: none;
     justify-content: start;
     color: white;
-    transition: all 0.2s;
+    transition: all 0.1s;
 
     &:hover {
       text-shadow: 0px 0px 15px #ea356f;
