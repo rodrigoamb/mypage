@@ -12,7 +12,7 @@ export const ContainerDepositions = styled.section`
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     row-gap: 40px;
     column-gap: 40px;
     padding: 20px;
