@@ -1,18 +1,18 @@
 //styles
-import { ContainerHeaderSecondary } from "./HeaderSecondaryStyles";
+import { ContainerHeaderSecondary } from './HeaderSecondaryStyles';
 
 //react-router-dom
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 //assets
-import mePhoto from "../../assets/me.jpg";
+import mePhoto from '../../assets/me.jpg';
 
 //aos
-import Aos from "aos";
-import "aos/dist/aos.css";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 //hooks react
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 const HeaderSecondary = () => {
   useEffect(() => {
@@ -42,12 +42,21 @@ const HeaderSecondary = () => {
               </span>
             </p>
             <div className="container-btn">
-              <Link to={"/portfolio"} className="btn-card">
+              <Link to={'/portfolio'} className="btn-card">
                 Ver Portfólio
               </Link>
-              <Link to={"/contato"} className="btn-card">
+              <Link to={'/contato'} className="btn-card">
                 Me mande uma mensagem
               </Link>
+              <a
+                href={
+                  'https://drive.google.com/file/d/1_9yl1G8PpWJsh6AxRi3WoCYKmEni__Z1/view?usp=sharing'
+                }
+                target={'blank'}
+                className="btn-card"
+              >
+                Download Currículo
+              </a>
             </div>
           </div>
           <div className="container-img">
